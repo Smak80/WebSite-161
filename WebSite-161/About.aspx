@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
         <h2 id="title"><%: Title %></h2>
-    <p><asp:Label ID="Greeting" runat="server" Text=""></asp:Label></p>
+    <p><asp:Label ID="LocalGreeting" runat="server" Text=""></asp:Label></p>
     <p>Ваше имя:
         <asp:TextBox ID="TextBox1" runat="server" Width="500px"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Необходимо заполнить поле &quot;Имя&quot;" BackColor="#FFCCCC" ControlToValidate="TextBox1" Display="Dynamic"></asp:RequiredFieldValidator>

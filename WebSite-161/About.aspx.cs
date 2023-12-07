@@ -16,7 +16,9 @@ namespace WebSite_161
 
         protected void SendInfo_Click(object sender, EventArgs e)
         {
-            Greeting.Text = $"Приветствуем Вас, {TextBox1.Text}!";
+            LocalGreeting.Text = $"Приветствуем Вас, {TextBox1.Text}!";
+            Session["Name"] = TextBox1.Text;
+            ((SiteMaster)Master).Name = TextBox1.Text;
         }
     }
 }
