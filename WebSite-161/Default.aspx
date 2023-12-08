@@ -2,7 +2,6 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main>
-        Страница:
         <div id="pagename" runat="server"></div><br />
         <div id="pages" runat="server"></div><br />
     </main>

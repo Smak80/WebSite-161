@@ -26,7 +26,6 @@ namespace WebSite_161
             if (Session["Name"]!=null && Session["Name"].ToString().Trim().Length > 0)
             {
                 Name = Session["Name"].ToString();
-                aExit.Visible = true;
             }
         }
     }
